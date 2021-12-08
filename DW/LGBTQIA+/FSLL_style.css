@@ -1,0 +1,39 @@
+.corpo {
+    background-color: white;
+}
+header {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-animation: colorchange 20s infinite; 
+    animation: colorchange 20s infinite;
+    padding: 30px;
+}
+body {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+
+@-webkit-keyframes colorchange {
+    0% {background-color: red;}
+    20% {background-color: orange;}
+    40% {background-color: yellow;}
+    60% {background-color: green;}
+    80% {background-color: blue;}
+    100% {background-color: purple;} 
+}
+@keyframes colorchange {
+    0% {background-color: red;}
+    20% {background-color: orange;}
+    40% {background-color: yellow;}
+    60% {background-color: green;}
+    80% {background-color: blue;}
+    100% {background-color: purple;} 
+}
+.rodape {
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
