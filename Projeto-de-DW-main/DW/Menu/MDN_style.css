@@ -1,0 +1,124 @@
+.menu {
+    -webkit-animation: colorchange 30s infinite; 
+    animation: colorchange 30s infinite;
+    border-color: black;
+    border-width: 2px;
+    border-style:groove;  
+    padding-left: 30px;
+    height: 20vh;
+}
+@-webkit-keyframes colorchange {
+    0% {background-color: rgb(247, 64, 64);}
+    20% {background-color: orange;}
+    40% {background-color: yellow;}
+    60% {background-color: greenyellow;}
+    80% {background-color: rgb(64, 146, 240);}
+    100% {background-color: rgb(219, 25, 219);}
+}
+@keyframes colorchange {
+    0% {background-color: rgb(247, 64, 64);}
+    20% {background-color: orange;}
+    40% {background-color: yellow;}
+    60% {background-color: greenyellow;}
+    80% {background-color:rgb(64, 146, 240);}
+    100% {background-color: rgb(219, 25, 219);} 
+}
+
+.menu_navegacao{
+    padding:0px;
+    margin:0px;
+}
+
+.item_menu {
+    position: relative;
+    display: inline;
+}
+
+.link_menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+}
+
+.link_menu:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.centro {
+    position: relative;
+}
+
+.lista {
+    margin: auto 150px;
+    text-align: center;
+}
+
+.lista li {
+    display:  inline-block;
+    padding: 50px 20px;
+    margin-left: 50px;
+    vertical-align: top;
+    border-color: black;
+    border-width: 2px;
+    border-style:groove;
+}
+
+.lista li:hover {
+    border-color: teal;
+}
+
+.lista li:hover h2 {
+    font-size: 25px;
+}
+
+.lista h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.lista p {
+    text-align: justify;
+    width: 200px;
+    padding: 5px 0;
+}
+
+
+
+.rodape {
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
