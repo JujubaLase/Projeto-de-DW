@@ -90,14 +90,6 @@
 .rd_tabs:checked ~ .content{
     display: block;
 }
-.acima {
-    -webkit-animation: colorchange 20s infinite; 
-    animation: colorchange 20s infinite;
-    border-color: black;
-    border-width: 2px;
-    border-style: groove;  
-    padding-left: 30px;
-}
 
 body img{
     width: 250px;
@@ -105,6 +97,10 @@ body img{
     border-color: black;
     border-width: 2px;
     border-style:groove;
+}
+.sobre{
+    font-family: 'Autography';
+    font-size: 40px;
 }
 
 @font-face {
@@ -168,6 +164,17 @@ body img{
     background-color: #EBE9DF;
 }
 
+.formatação {
+    display:  inline-block;
+    padding: 50px 20px;
+    margin-left: 50px;
+    vertical-align: top;
+    border-color: black;
+    border-width: 2px;
+    border-style:groove;
+    background-color: #EBE9DF;
+}
+
 .lista li:hover {
     border-color: teal;
 }
@@ -199,4 +206,8 @@ body img{
 
 .texto {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo{
+
 }
